@@ -33,6 +33,7 @@ function App(props) {
       <div className="container">
         <Routes>
           <Route path="/main" element={<Header />} />
+          <Route path='*' element={<Header />}/>
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route
