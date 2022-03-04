@@ -16,13 +16,13 @@ const Header = () => {
                        Front-End | React JS developer
                     </h2>
                     <div className="header-social-links">
-                        <a target='_blank' href="#" className="header-social__link">
+                        {/* <a target='_blank' href="https://www.facebook.com/vlkvnklj" className="header-social__link">
                             <FontAwesomeIcon icon={faFacebook} />
-                        </a>
-                        <a target='_blank' href="#" className="header-social__link">
+                        </a> */}
+                        <a target='_blank' href="https:/https://www.linkedin.com/in/nikolay-volkov-28552b1a7//" className="header-social__link">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                        <a target='_blank' href="#" className="header-social__link">
+                        <a target='_blank' href="https://github.com/Nklj" className="header-social__link">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                     </div>

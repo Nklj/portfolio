@@ -1,41 +1,14 @@
 const worksData = [
-//   {
-//     name: "Приложение на React.js - Социальная сеть",
-//     title: "iChat",
-//     img: "iChat.jpg",
-//     path: 1,
-//     stack: [
-//       "axios",
-//       "bootstrap",
-//       "react",
-//       "react-redux",
-//       "react-router-dom",
-//       "redux",
-//       "redux-thunk",
-//       "redux-form",
-//       "reselect",
-//     ],
-//     descr: "Сообщество умных людей (в разработке).",
-//     link: "https://Nklj.github.io/iChat/#/",
-//   },
-//   {
-//     name: "Статичный сайт",
-//     title: "Статичный сайт",
-//     img: "staticSite.jpg",
-//     path: 2,
-//     stack: ["HTML", "CSS"],
-//     descr: "Создание лендинга для своей практики.",
-//     link: "https://Nklj.github.io/staticSite/",
-//   },
-//   {
-//     name: "Динамичный сайт",
-//     title: "Динамичный сайт",
-//     img: "motionSite.jpg",
-//     path: 3,
-//     stack: ["HTML", "CSS"],
-//     descr: "Создание лендинга с анимацией.",
-//     link: "https://Nklj.github.io/motionSite/",
-//   },
+  {
+    name: "BrownMove",
+    title: "BrownMove",
+    img: "brownMove.png",
+    path: 1,
+    stack: ["HTML", "CSS", "JS"],
+    descr:
+      "Небольшое приложение с залипательными анимациями. Анимация реализована c помощью canvas и js",
+    link: "https://nklj.github.io/BrownMove/",
+  },
 ];
 
 export default worksData;

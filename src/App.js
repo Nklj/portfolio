@@ -32,10 +32,10 @@ function App(props) {
       <Navbar paginatorIsActive={paginatorIsActive} />
       <div className="container">
         <Routes>
-          <Route path="/main" element={<Header />} />
-          <Route path='*' element={<Header />}/>
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route exact path="/main" element={<Header />} />
+          <Route exact path='*' element={<Header />}/>
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/skills" element={<Skills />} />
           <Route
             path="/skills/:skill"
             element={
