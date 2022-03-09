@@ -18,6 +18,16 @@ const worksData = [
     descr: "Само это портфолио",
     link: "https://nklj.github.io/portfolio/",
   },
+  {
+    name: "Twitter-sidebar",
+    title: "Twitter-sidebar",
+    img: "twitter-sidebar.png",
+    path: 3,
+    stack: ["REACT", "Material-UI"],
+    descr:
+      "Копия меню Twitter. Реализовано с помощью библиотеки компонентов Material UI",
+    link: "https://nklj.github.io/Twitter-sidebar/",
+  },
 ];
 
 export default worksData;
