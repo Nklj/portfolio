@@ -8,6 +8,7 @@ const worksData = [
     descr:
       "Небольшое приложение с залипательными анимациями. Анимация реализована c помощью canvas и js",
     link: "https://nklj.github.io/BrownMove/",
+    code: "https://github.com/Nklj/BrownMove",
   },
   {
     name: "Portfolio",
@@ -17,6 +18,7 @@ const worksData = [
     stack: ["REACT", "SASS"],
     descr: "Само это портфолио",
     link: "https://nklj.github.io/portfolio/",
+    code: "https://github.com/Nklj/portfolio",
   },
   {
     name: "Twitter-sidebar",
@@ -27,15 +29,17 @@ const worksData = [
     descr:
       "Копия меню Twitter. Реализовано с помощью библиотеки компонентов Material UI",
     link: "https://nklj.github.io/Twitter-sidebar/",
+    code: "https://github.com/Nklj/Twitter-sidebar",
   },
   {
     name: "BurgerShop",
     title: "BurgerShop",
     img: "burgerShop.png",
-    path: 3,
+    path: 4,
     stack: ["REACT", "Firebase"],
     descr: "Магазин с возможностью редактирования меню",
     link: "https://nklj.github.io/BurgerShop",
+    code: "https://github.com/Nklj/BurgerShop",
   },
 ];
 
