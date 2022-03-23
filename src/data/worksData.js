@@ -28,6 +28,15 @@ const worksData = [
       "Копия меню Twitter. Реализовано с помощью библиотеки компонентов Material UI",
     link: "https://nklj.github.io/Twitter-sidebar/",
   },
+  {
+    name: "BurgerShop",
+    title: "BurgerShop",
+    img: "burgerShop.png",
+    path: 3,
+    stack: ["REACT", "Firebase"],
+    descr: "Магазин с возможностью редактирования меню",
+    link: "https://nklj.github.io/BurgerShop",
+  },
 ];
 
 export default worksData;
