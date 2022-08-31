@@ -23,7 +23,7 @@ const Header = () => {
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a> */}
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://github.com/Nklj"
               className="header-social__link"
             >

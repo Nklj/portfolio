@@ -30,7 +30,7 @@ const Works = () => {
           </div>
           <div className="works-footer">
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://github.com/Nklj"
               className="works__button"
             >

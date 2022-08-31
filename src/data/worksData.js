@@ -1,9 +1,20 @@
 const worksData = [
   {
+    name: "Vue-lightbox",
+    title: "Vue-lightbox",
+    img: "vue-lightbox.png",
+    path: 7,
+    stack: ["VUE", "VUEX", "IndexedDB"],
+    descr:
+      "Веб приложение для просмотра локальных изображений офлайн",
+    link: " https://nklj.github.io/vue-lightbox/",
+    code: "https://github.com/Nklj/vue-lightbox",
+  },
+  {
     name: "Memory Game",
     title: "Memory Game",
     img: "memory-game.png",
-    path: 5,
+    path: 6,
     stack: ["VUE", "lodash", ],
     descr:
       "Игра на тренеровку памяти",
@@ -14,7 +25,7 @@ const worksData = [
     name: "Todo App",
     title: "Todo App",
     img: "vue-test-task.png",
-    path: 6,
+    path: 5,
     stack: ["VUE", "VUEX", "vue-router", "materialize-css","SCSS"],
     descr:
       "Vue CRUD TODO App",
@@ -25,7 +36,7 @@ const worksData = [
     name: "BrownMove",
     title: "BrownMove",
     img: "brownMove.png",
-    path: 1,
+    path: 4,
     stack: ["HTML", "CSS", "JS"],
     descr:
       "Небольшое приложение с залипательными анимациями. Анимация реализована c помощью canvas и js",
@@ -36,7 +47,7 @@ const worksData = [
     name: "Portfolio",
     title: "Portfolio",
     img: "portfolio.png",
-    path: 2,
+    path: 3,
     stack: ["REACT", "SASS"],
     descr: "Само это портфолио",
     link: "https://nklj.github.io/portfolio/",
@@ -46,7 +57,7 @@ const worksData = [
     name: "Twitter-sidebar",
     title: "Twitter-sidebar",
     img: "twitter-sidebar.png",
-    path: 3,
+    path: 2,
     stack: ["REACT", "Material-UI"],
     descr:
       "Копия меню Twitter. Реализовано с помощью библиотеки компонентов Material UI",
@@ -57,7 +68,7 @@ const worksData = [
     name: "BurgerShop",
     title: "BurgerShop",
     img: "burgerShop.png",
-    path: 4,
+    path: 1,
     stack: ["REACT", "Firebase"],
     descr: "Магазин с возможностью редактирования меню",
     link: "https://nklj.github.io/BurgerShop",
