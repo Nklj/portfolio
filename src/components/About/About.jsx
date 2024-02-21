@@ -22,13 +22,33 @@ const About = () => {
                                 День рождения: 5 ноября 1983 г.
                             </p>
                             <p className="about__text">
-                                Город: Сочи
-        
+                                Город: Подгорица ( Черногория )        
                             </p>
                         </div>
-                        <a href='https://github.com/Nklj' target='_blank' className="about-avatar">
-                        </a>
+                        <div  className="about-avatar">
+                        </div>
                         <div className="about-description">
+                            <h2 className="about__title">Опыт работы:</h2>
+                            <div className='about-description__item'>
+                                <p className="about__text">
+                                Август 2022 — октябрь 2023
+                                </p>
+                                <p className="about__text">
+                                ООО "Образовариум"
+                                </p>
+                                <p className="about__text">
+                                Frontend-разработчик
+                                </p>
+                            </div>
+                            <div>
+                                <p className="about__text">
+                                Программирование и верстка мультимедийных образовательных продуктов для дошкольников и школьников. Поддержка, рефакторинг и оптимизация существующего кода.
+                                </p>
+                                <p className="about__text">
+                                Стек: Vue2/3, Vuex, Nuxt, Pinia, Bootstrap, SCSS
+                                </p>
+                            </div>
+                            <br/>
                             <h2 className="about__title">Образование:</h2>
                             <div className='about-description__item'>
                                 <p className="about__text">

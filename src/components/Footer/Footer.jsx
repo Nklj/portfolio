@@ -14,7 +14,7 @@ const Footer = () => {
                 {/* <a target='_blank' href="https://www.facebook.com/vlkvnklj" className="footer-social__link">
                     <FontAwesomeIcon icon={faFacebook} />
                 </a> */}
-                <a target='_blank' href="https:/https://www.linkedin.com/in/nikolay-volkov-28552b1a7//" className="footer-social__link">
+                <a target='_blank' href="https://www.linkedin.com/in/nikolay-volkov-28552b1a7//" className="footer-social__link">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a target='_blank' href="https://github.com/Nklj" className="footer-social__link">

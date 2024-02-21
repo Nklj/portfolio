@@ -34,10 +34,10 @@ const Contacts = () => {
               </div>
               <h5 className="contacts-card__title">Телефон:</h5>
               <a
-                href="tel:+79965322386"
+                href="tel:+38267326197"
                 className="contacts-card__link contacts-card__text"
               >
-                Мегафон: 8 (996) 532-23-86
+                +382 67 326 197
               </a>
             </div>
             <div className="contacts-card">
@@ -52,7 +52,7 @@ const Contacts = () => {
                 <a
                   className="contacts-card__link"
                   target="_blank"
-                  href="https:/https://www.linkedin.com/in/nikolay-volkov-28552b1a7/"
+                  href="https://www.linkedin.com/in/nikolay-volkov-28552b1a7/"
                 >
                   <FontAwesomeIcon icon={faLinkedin} /> Linkedin
                 </a>

@@ -5,7 +5,7 @@ $shadow-medium: 0 0 10px #7733ff, 0 0 40px #7733ff
 .about
   &-wrap
     grid-template-columns: 2fr 1fr
-    grid-template-rows: 250px 350px
+    grid-template-rows: 250px 1fr
     padding: 0 30px 30px 30px
     grid-gap: 30px
   &-description
@@ -17,10 +17,8 @@ $shadow-medium: 0 0 10px #7733ff, 0 0 40px #7733ff
     background-image: url("../../assets/img/avatar.jpg")
     background-position: top
     background-repeat: no-repeat
-    background-size: cover
-    transition: all 0.3s ease
-    &:hover
-      box-shadow: $shadow-medium
+    background-size: contain
+    transition: all 0.3s ease        
   &__title
     font-size: 30px
     margin-bottom: 25px
@@ -29,17 +27,11 @@ $shadow-medium: 0 0 10px #7733ff, 0 0 40px #7733ff
     font-size: 20px
     margin-bottom: 15px
 
-@media  screen and (max-width: 1200px)
-  .about
-    &-wrap
-      grid-template-columns: 1fr 1fr
-      grid-template-rows: 300px 400px
-
 @media  screen and (max-width: 900px)
   .about
     &-wrap
       grid-template-columns: 1fr
-      grid-template-rows: 200px 400px 350px
+      grid-template-rows: 200px 400px 1fr
     &-avatar
       grid-row: auto
       grid-column: auto
