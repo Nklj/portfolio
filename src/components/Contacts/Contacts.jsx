@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComment, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { Animated } from "react-animated-css";
 
 const Contacts = () => {
@@ -34,10 +34,10 @@ const Contacts = () => {
               </div>
               <h5 className="contacts-card__title">Телефон:</h5>
               <a
-                href="tel:+38267326197"
+                href="tel:+79605533815"
                 className="contacts-card__link contacts-card__text"
               >
-                +382 67 326 197
+                +7 (960) 553-38-15
               </a>
             </div>
             <div className="contacts-card">
@@ -52,9 +52,9 @@ const Contacts = () => {
                 <a
                   className="contacts-card__link"
                   target="_blank"
-                  href="https://www.linkedin.com/in/nikolay-volkov-28552b1a7/"
+                  href="https://t.me/nikolay_vlkv"
                 >
-                  <FontAwesomeIcon icon={faLinkedin} /> Linkedin
+                  <FontAwesomeIcon icon={faTelegram} /> Telegram
                 </a>
               </div>
             </div>

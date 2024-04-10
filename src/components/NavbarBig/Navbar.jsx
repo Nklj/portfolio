@@ -26,12 +26,12 @@ const Navbar = ({paginatorIsActive}) => {
                     </NavLink>
                     <span className='navbar-link__title'>О себе</span>
                 </li>
-                <li className='navbar-link'>
+                {/* <li className='navbar-link'>
                     <NavLink to="/skills">
                         <FontAwesomeIcon icon={faCheck} />
                     </NavLink>
                     <span className='navbar-link__title'>Навыки</span>
-                </li>
+                </li> */}
                 <li className='navbar-link'>
                     <NavLink to="/works">
                         <FontAwesomeIcon icon={faBriefcase} />

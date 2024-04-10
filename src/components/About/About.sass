@@ -17,8 +17,10 @@ $shadow-medium: 0 0 10px #7733ff, 0 0 40px #7733ff
     background-image: url("../../assets/img/avatar.jpg")
     background-position: top
     background-repeat: no-repeat
-    background-size: contain
-    transition: all 0.3s ease        
+    background-size: cover
+    margin-bottom: 200px
+    transition: all 0.3s ease 
+    border-radius: 10px       
   &__title
     font-size: 30px
     margin-bottom: 25px
@@ -35,16 +37,17 @@ $shadow-medium: 0 0 10px #7733ff, 0 0 40px #7733ff
     &-avatar
       grid-row: auto
       grid-column: auto
-      width: 50%
-      margin: 0 auto
+      width: 90%
+      margin: 0 auto      
       background-position: center
 
 @media  screen and (max-width: 600px)
   .about
     &-wrap
-      grid-template-rows: 0.5fr 1fr 1fr
+      grid-template-rows: 0.5fr 0.5fr 1fr
     &-avatar
-      width: 70%
+      width: 100%
+      margin-top: -200px
     &__title
       font-size: 25px
       margin-bottom: 15px
@@ -55,9 +58,10 @@ $shadow-medium: 0 0 10px #7733ff, 0 0 40px #7733ff
 @media  screen and (max-width: 460px)
   .about
     &-wrap
-      grid-template-rows: 0.5fr 1fr 1fr
+      grid-template-rows: 0.5fr 0.3fr 1fr
     &-avatar
       width: 100%
+      margin-top: -100px
     &__title
       font-size: 20px
     &__text

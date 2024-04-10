@@ -26,9 +26,9 @@ const NavbarMenu = ({paginatorIsActive}) => {
                     <li className="navbar-menu-inner__point">
                         <NavLink onClick={onClick} to="/about">О себе</NavLink>
                     </li>
-                    <li className="navbar-menu-inner__point">
+                    {/* <li className="navbar-menu-inner__point">
                         <NavLink onClick={onClick} to="/skills">Навыки</NavLink>
-                    </li>
+                    </li> */}
                     <li className="navbar-menu-inner__point">
                         <NavLink onClick={onClick} to="/works">Работы</NavLink>
                     </li>

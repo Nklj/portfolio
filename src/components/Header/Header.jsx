@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faGithub,
-  faLinkedin,
+  faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
@@ -19,8 +19,8 @@ const Header = () => {
             {/* <a target='_blank' href="https://www.facebook.com/vlkvnklj" className="header-social__link">
                             <FontAwesomeIcon icon={faFacebook} />
                         </a> */}
-            <a target='_blank' href="https://www.linkedin.com/in/nikolay-volkov-28552b1a7/" className="header-social__link">
-                            <FontAwesomeIcon icon={faLinkedin} />
+            <a target='_blank' href="https://t.me/nikolay_vlkv" className="header-social__link">
+                            <FontAwesomeIcon icon={faTelegram} />
                         </a>
             <a
               target="_blank" rel="noreferrer"

@@ -16,13 +16,12 @@ const About = () => {
                             <h2 className="about__title">Персональные данные:</h2>
                             <p className="about__text">
                                 Полное имя: Волков Николай Александрович
-
                             </p>
-                            <p className="about__text">
+                            {/* <p className="about__text">
                                 День рождения: 5 ноября 1983 г.
-                            </p>
+                            </p> */}
                             <p className="about__text">
-                                Город: Подгорица ( Черногория )        
+                                Город: Десногорск (Смоленская обл.)        
                             </p>
                         </div>
                         <div  className="about-avatar">
@@ -31,7 +30,7 @@ const About = () => {
                             <h2 className="about__title">Опыт работы:</h2>
                             <div className='about-description__item'>
                                 <p className="about__text">
-                                Август 2022 — октябрь 2023
+                                июнь 2022 — август 2023
                                 </p>
                                 <p className="about__text">
                                 ООО "Образовариум"
@@ -45,7 +44,7 @@ const About = () => {
                                 Программирование и верстка мультимедийных образовательных продуктов для дошкольников и школьников. Поддержка, рефакторинг и оптимизация существующего кода.
                                 </p>
                                 <p className="about__text">
-                                Стек: Vue2/3, Vuex, Nuxt, Pinia, Bootstrap, SCSS
+                                Стек: Vue2/3, Vuex, Nuxt, Pinia, Bootstrap, SCSS, PHP
                                 </p>
                             </div>
                             <br/>
